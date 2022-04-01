@@ -1,0 +1,12 @@
+﻿@page
+@using Models
+@model Person
+@{
+    ViewData["Title"] = "Person Page";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.MyEditorForModel()
+}
